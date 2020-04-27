@@ -39,6 +39,10 @@ public class JsfCidade {
         new CrudCidade().add(cid);
     }
 
+    public void delete(int codigo) {
+        new CrudCidade().Remove(codigo);
+    }
+
     public int getCodigo() {
         return codigo;
     }
